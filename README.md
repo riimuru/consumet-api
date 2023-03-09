@@ -46,15 +46,15 @@ installation is simple.
 Run the following command to clone the repository, and install the dependencies.
 
 ```sh
-$ git clone https://github.com/consumet/consumet-api.git
-$ cd consumet-api
-$ npm install #or yarn install
+git clone https://github.com/consumet/consumet-api.git
+cd consumet-api
+npm install #or yarn install
 ```
 
 start the server!
 
 ```sh
-$ npm start #or yarn start
+npm start #or yarn start
 ```
 
 ### Docker
@@ -63,8 +63,8 @@ Docker image is available at [Docker Hub](https://hub.docker.com/r/riimuru/consu
 run the following command to pull and run the docker image.
 
 ```sh
-$ docker pull riimuru/consumet-api
-$ docker run -p 3000:3000 riimuru/consumet-api
+docker pull riimuru/consumet-api
+docker run -p 3000:3000 riimuru/consumet-api
 ```
 This will start the server on port 3000. You can access the server at http://localhost:3000/, And can change the port by changing the -p option to `-p <port>:3000`.
 
